@@ -1,0 +1,24 @@
+# Virtual environment — platform-specific binaries, rebuild with requirements.txt
+.venv/
+
+# Analysis output — regenerate by re-running the tool
+results/
+
+# Microscopy data. Large, and raw data generally belongs in OneDrive rather than
+# git. Use `git add -f <file>` to track a small one deliberately, e.g. as a
+# regression fixture.
+*.tif
+*.tiff
+*.xlsx
+OneDrive_*/
+Some previous pictures to test out/
+
+# Distribution zip, rebuilt on demand
+TEMcounter-for-colleague.zip
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
