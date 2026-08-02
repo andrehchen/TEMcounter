@@ -102,13 +102,13 @@ Then use one of the two commands below.
 **Windows**
 
 ```
-.venv\Scripts\python temcounter.py "PASTE FILE HERE" -n 100
+.venv\Scripts\python temcounter.py "PASTE FILE HERE" -n 150
 ```
 
 **Mac**
 
 ```
-.venv/bin/python temcounter.py "PASTE FILE HERE" -n 100
+.venv/bin/python temcounter.py "PASTE FILE HERE" -n 150
 ```
 
 To fill in the file: delete `PASTE FILE HERE` (keep the quote marks), then
@@ -127,19 +127,19 @@ Exactly the same, but give it the folder instead of the file:
 **Windows**
 
 ```
-.venv\Scripts\python temcounter.py "PASTE FOLDER HERE" -n 100
+.venv\Scripts\python temcounter.py "PASTE FOLDER HERE" -n 150
 ```
 
 **Mac**
 
 ```
-.venv/bin/python temcounter.py "PASTE FOLDER HERE" -n 100
+.venv/bin/python temcounter.py "PASTE FOLDER HERE" -n 150
 ```
 
 Fill it in the same way — Shift + right-click the folder and "Copy as path" on
 Windows, or drag the folder into Terminal on a Mac.
 
-`-n 100` is how many particles to measure per image. Change the number if you want
+`-n [integer]` is how many particles to measure per image. Change the number if you want
 more or fewer.
 
 ## What happens next
